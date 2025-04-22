@@ -2,7 +2,7 @@ class Tester:
 
     def __init__(self, name, deadline=True):
         self.name = name
-        self.deadline = deadline
+        self.deadline = None
 
     def work_hard(self, deadline=True):
         if deadline:
